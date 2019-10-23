@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.app-container{
+  height:60vh;
+  width:100%;
+  background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.app-name{
+  color: rgb(254, 209, 54);
+  font-family: 'Kaushan Script', cursive;
+  font-size: 20px;
+}
+
+.menu-btn{
+  height: 38px;
+  width: 78px;
+  background-color: rgb(254, 209, 54);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-menu{
+  display: none;
+}
+
+.menu {
+  margin-top: 56px;
+  height: 212px;
+  width: 100%;
+  background: rgb(33, 37, 41);
+  position: fixed;
+  display:flex;
+  flex-direction: column;
+  top: -268.97px;
+  transition: .5s;
+  box-sizing: border-box;
+  padding-left:10px;
+  padding-right: 94.5px;
+  position: fixed;
+}
+
+.slide {
+  top: 0px;
+}
+
+.menu > a {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14.4px;
+  letter-spacing: 1px;
+  line-height: 21px;
+  padding-top: 20px;
+}
+
+.nav{
+  height: 7vh;
+  width: 100%;
+  background-color: rgb(33, 37, 41);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  position: fixed;
+  padding-right:13px;
+  padding-left:13px;
+  z-index:1;
+}
+
+.drop-down{
+  font-size:12px;
+}
+
+.main-section{
+  width:100vw;
+  padding-top:20vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  align-content: center;
+}
+
+.welcome{
+  color:white;
+  font-family: 'Kaushan Script', cursive;
+  font-size:20px;
+  margin-bottom:30px;
+  
+}
+
+.meet-you{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-size:50px;
+  font-weight:700;
+  margin-bottom:20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:50px;
+}
+
+.more{
+  height: 70px;
+  width: 220px;
+  background-color: rgb(254, 209, 54);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.services{
+  height:40vh;
+  width:100vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size:50px;
+  font-weight:bold;
+}
+
+.menu-btn{
+  display:none;
+}
+.navbar-menu{
+  width:50vw;
+  display:flex;
+  color:white;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media(max-width: 414px){
+  .app-container{
+    height:60vh;
+    width:100%;
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .app-name{
+    color: rgb(254, 209, 54);
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+  }
+
+  .menu-btn{
+    height: 38px;
+    width: 78px;
+    background-color: rgb(254, 209, 54);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .navbar-menu{
+    display: none;
+  }
+
+  .menu {
+    margin-top: 56px;
+    height: 212px;
+    width: 100%;
+    background: rgb(33, 37, 41);
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    top: -268.97px;
+    transition: .5s;
+    box-sizing: border-box;
+    padding-left:10px;
+    padding-right: 94.5px;
+    position: fixed;
+  }
+
+  .slide {
+    top: 0px;
+  }
+
+  .menu > a {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14.4px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    padding-top: 20px;
+  }
+
+  .nav{
+    height: 7vh;
+    width: 100%;
+    background-color: rgb(33, 37, 41);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    padding-right:13px;
+    padding-left:13px;
+    z-index:1;
+  }
+
+  .drop-down{
+    font-size:12px;
+  }
+
+  .main-section{
+    width:100vw;
+    padding-top:20vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+  }
+
+  .welcome{
+    color:white;
+    font-family: 'Kaushan Script', cursive;
+    font-size:20px;
+    margin-bottom:30px;
+    
+  }
+
+  .meet-you{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:50px;
+    font-weight:700;
+    margin-bottom:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:50px;
+  }
+
+  .more{
+    height: 70px;
+    width: 220px;
+    background-color: rgb(254, 209, 54);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+    font-weight:bold;
+  }
+
+  .services{
+    height:40vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:50px;
+    font-weight:bold;
+  }
+  
+}
